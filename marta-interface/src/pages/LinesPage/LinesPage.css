@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-button {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    align-self: center;
+    margin-top: 1.5rem;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 50px;
+    width: 100vw;
+}
+
+.gold-button {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10rem;
+    background-color: #fcd34d;
+    color: white;
+    font-size: 30px;
+    padding: 0.25rem 1rem;
+    border: 3px solid lightgray; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.gold-button:hover {
+    background-color: #fbbf24;
+}
+
+.red-button {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10rem;
+    background-color: rgb(230, 72, 72);
+    color: white;
+    font-size: 30px;
+    padding: 0.25rem 1rem;
+    border: 3px solid lightgray; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red-button:hover {
+    background-color: darkred;
+}
+
+.blue-button {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10rem;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding: 0.25rem 1rem;
+    border: 3px solid lightgray; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.blue-button:hover {
+    background-color: darkblue;
+}
+
+.green-button {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 10rem;
+    background-color: rgb(34, 145, 34);
+    color: white;
+    font-size: 30px;
+    padding: 0.25rem 1rem;
+    border: 3px solid lightgray; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-button:hover {
+background-color: darkgreen;
+}
+  
+.color-indicator {
+    font-size: 40px;
+    font-style: monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+    border-bottom: 3px solid lightgray;
+    width: 100%;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    width: 100%;
+}
+  
+.column1 {
+    flex: 1;
+}
+  
+.column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
