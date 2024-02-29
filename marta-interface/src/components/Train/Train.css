@@ -1,0 +1,21 @@
+.info-container {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    padding: 10px 0px;
+}
+
+.station-name {
+    font-size: 15px;
+}
+
+.station-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.station-details {
+    display: flex;
+}
+
+
+
